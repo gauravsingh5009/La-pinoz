@@ -273,6 +273,9 @@ h2{color: var(--light-black);}
     background: var(--green);
 }
 .journey .timeline-block{position: relative; margin: 16px 0 16px 25px; background: var(--white); border-radius: 10px; padding: 10px; box-shadow: 0 4px 7px rgb(0 0 0 / 10%); }
+.journey .timeline-block h3{color: var(--green) !important;}
+.journey .timeline-block p{color: var(--dark-black) !important;}
+
 
 /* Media Query */
 
