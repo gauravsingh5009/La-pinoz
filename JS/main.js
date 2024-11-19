@@ -234,6 +234,43 @@ $(document).ready(function () {
   });
 
 
+  $('.offers').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    arrows: false,
+    dots: true,
+    pauseOnHover: false,
+    pauseOnDotsHover: false, 
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 980,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+
+
   // Wrap-16 button click toggle 
   $(".wrap-16 .outlets").click(function () {
     $(this).toggleClass("active");
