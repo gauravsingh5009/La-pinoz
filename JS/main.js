@@ -270,6 +270,41 @@ $(document).ready(function () {
     ]
   });
 
+// Odering Page
+  // $('.simpleslider').slick({
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   autoplay: false,
+  //   autoplaySpeed: 2000,
+  //   prevArrow: '<button type="button" class="slick-prev"><i class="bi bi-chevron-left"></i></button>',
+  //   nextArrow: '<button type="button" class="slick-next"><i class="bi bi-chevron-right"></i></button>',
+  //   responsive: [
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 1,
+  //         infinite: true,
+  //         dots: false
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 980,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 1
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 480,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1
+  //       }
+  //     }
+  //   ]
+  // });
+    
 
   // Wrap-16 button click toggle 
   $(".wrap-16 .outlets").click(function () {
