@@ -22,14 +22,14 @@
                 <img src="./Img/logo-5-1725610081.png" alt="logo" width="500" height="170">
               </a>
             </h1>
-            <div class="change-outlet">
+            <!-- <div class="change-outlet">
               <label class="text-color" aria-label="change-outlet">Change Outlet</label>
               <div>
                 <a class="btn d-flex align-items-center text-color rounded-0" href="#" role="button">
                   <span class="">Wazidpur Tiraha, Jaunpur</span><span class="bi bi-chevron-down mt-1"></span>
                 </a>
               </div>
-            </div>
+            </div> -->
           </div>
   
           <div class="d-flex align-items-center  ms-md-auto d-lg-none d-block">
@@ -106,235 +106,174 @@
       </nav>
     </div>
   </header>
-
+  
   <section class="ordering-page bodybagroundcolor pt-2">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xl-2 col-lg-3 d-lg-block d-none">
+        <div class="col-xl-2 col-lg-3 d-lg-block d-none position-relative">
           <div class="categories">
             <h2 class="main-heading">Categories</h2>
-            <div class="menu" id="navbar-example3">
-              <ul>
+            <nav class="menu " id="navbar-example3">
+              <nav class="nav">
                 <!-- Featured Items -->
-                <li class="active">
-                  <a href="#Featured-Items" class="subcategories active">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <i class="bi bi-suit-heart-fill text-light"></i>
-                      </span>
-                      <span>Featured Items</span>
+                <a href="#Featured-Items" class="subcategories nav-link">
+                  <span class="d-flex align-items-center">
+                    <span class="sm-img">
+                      <i class="bi bi-suit-heart-fill text-light"></i>
                     </span>
-                    <span class="count-n">(6)</span>
-                  </a>
-                </li>
+                    <span>Featured Items</span>
+                  </span>
+                  <span class="count-n">(6)</span>
+                </a>
 
                 <!-- 3 Medium Pizza -->
-                <li>
-                  <a href="#" class="subcategories">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/image-3.jpeg" alt="3 Medium Pizza">
-                      </span>
-                      <span>3 Medium Pizza @1099</span>
+                <a href="#medium-pizza" class="subcategories nav-link">
+                  <span class="d-flex align-items-center">
+                    <span class="sm-img">
+                      <img src="./Img/image-3.jpeg" alt="3 Medium Pizza">
                     </span>
-                    <span class="count-n">(1)</span>
-                  </a>
-                </li>
+                    <span>3 Medium Pizza @1099</span>
+                  </span>
+                  <span class="count-n">(1)</span>
+                </a>
+
                 <!-- Festive Menu @79/149/189 -->
-                <li>
-                  <a class="subcategories" data-bs-toggle="collapse" href="#Festive" role="button" aria-expanded="false">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/image-4.jpeg" alt="Festive Menu @79/149/189">
-                      </span>
-                      <span>Festive Menu @79/149/189</span>
+                <a class="subcategories nav-link" href="#Festives" data-bs-toggle="collapse" data-bs-target="#collapsibleContent1" aria-expanded="false" aria-controls="collapsibleContent">
+                  <span class="d-flex align-items-center">
+                    <span class="sm-img">
+                      <img src="./Img/image-4.jpeg" alt="Festive Menu @79/149/189">
                     </span>
-                    <span class="count-n">(14)</span>
-                  </a>
-                </li>
-                <ul class="collapse child-menu" id="Festive">
-                  <li><a href="#veg-menu79">Veg Menu @79</a></li>
-                  <li><a href="#veg-menu149">Veg Menu @149</a></li>
-                  <li><a href="#veg-menu189">Veg Menu @189</a></li>
-                </ul>
-                <!-- BOGO -->
-                <li>
-                  <a class="subcategories btn" data-bs-toggle="collapse" href="#BOGO" role="button" aria-expanded="false">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/bogo.jpg" alt="BOGO">
-                      </span>
-                      <span>BOGO</span>
-                    </span>
-                    <span class="count-n">(2)</span>
-                  </a>
-                </li>
-                
-                <!-- Garlic Bread -->
-                <li>
-                  <a href="#" class="subcategories">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/garlic_bread.jpg" alt="Garlic Bread">
-                      </span>
-                      <span>Garlic Bread</span>
-                    </span>
-                    <span class="count-n">(1)</span>
-                  </a>
-                </li>
+                    <span>Festive Menu @79/149/189</span>
+                  </span>
+                  <span class="count-n">(14)</span>
+                </a>
+                <nav class="collapse child-menu nav" id="collapsibleContent1">
+                  <a class="nav-link" href="#veg-menu79">Veg Menu @79</a>
+                  <a class="nav-link" href="#veg-menu149">Veg Menu @149</a>
+                  <a class="nav-link" href="#veg-menu189">Veg Menu @189</a>
+                </nav>
+
                 <!-- Lunch Feast -->
-                <li>
-                  <a href="#" class="subcategories">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/image-5.png" alt="Lunch Feast">
-                      </span>
-                      <span>Lunch Feast</span>
+                <a href="#Lunch-Feast" class="subcategories nav-link">
+                  <span class="d-flex align-items-center">
+                    <span class="sm-img">
+                      <img src="./Img/image-5.png" alt="Lunch Feast">
                     </span>
-                    <span class="count-n">(4)</span>
-                  </a>
-                </li>
-                <!-- Flat Out -->
-                <li>
-                  <a class="subcategories btn" data-bs-toggle="collapse" href="#Flat" role="button" aria-expanded="false">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/image-6.png" alt="Flat Out">
-                      </span>
-                      <span>Flat Out</span>
-                    </span>
-                    <span class="count-n">(62)</span>
-                  </a>
-                </li>
-                <ul class="collapse child-menu" id="Flat">
-                  <li><a href="#">Any Veg Medium Pizza @ Flat 399</a></li>
-                  <li><a href="#">Speciality Medium @449</a></li>
-                  <li><a href="#">Any Veg Large Pizza @ Flat 449</a></li>
-                  <li><a href="#">Speciality Large @499</a></li>
-                </ul>
+                    <span>Lunch Feast</span>
+                  </span>
+                  <span class="count-n">(4)</span>
+                </a>
+
                 <!-- Personal Slice Pizza -->
-                <li>
-                  <a href="#" class="subcategories">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/slice.jpg" alt="Personal Slice Pizza">
-                      </span>
-                      <span>Personal Slice Pizza</span>
+                <a href="#Personal-Slice" class="subcategories nav-link">
+                  <span class="d-flex align-items-center">
+                    <span class="sm-img">
+                      <img src="./Img/slice.jpg" alt="Personal Slice Pizza">
                     </span>
-                    <span class="count-n">(36)</span>
-                  </a>
-                </li>
+                    <span>Personal Slice Pizza</span>
+                  </span>
+                  <span class="count-n">(36)</span>
+                </a>
+
                 <!-- Veg Pizza -->
-                <li>
-                  <a class="subcategories btn" data-bs-toggle="collapse" href="#Veg" role="button" aria-expanded="false">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/image-1.png" alt="Veg Pizza">
-                      </span>
-                      <span>Veg Pizza</span>
+                <a class="subcategories nav-link" href="#Veg-Pizza" data-bs-toggle="collapse" data-bs-target="#collapsibleContent2" aria-expanded="false" aria-controls="collapsibleContent2">
+                  <span class="d-flex align-items-center">
+                    <span class="sm-img">
+                      <img src="./Img/image-1.png" alt="Veg Pizza">
                     </span>
-                    <span class="count-n">(35)</span>
-                  </a>
-                </li>
+                    <span>Veg Pizza</span>
+                  </span>
+                  <span class="count-n">(35)</span>
+                </a>
                 
-                <ul class="collapse child-menu" id="Veg">
-                  <li><a href="#">Classic Veg</a></li>
-                  <li><a href="#">Simply Veg</a></li>
-                  <li><a href="#">Exotic Veg</a></li>
-                  <li><a href="#">Speciality Veg</a></li>
-                </ul>
+                <nav class="collapse child-menu nav" id="collapsibleContent2">
+                  <a class="nav-link" href="#Classic-Veg">Classic Veg</a>
+                  <a class="nav-link" href="#Simply-Veg">Simply Veg</a>
+                  <a class="nav-link" href="#Exotic-Veg">Exotic Veg</a>
+                  <a class="nav-link" href="#Speciality-Veg">Speciality Veg</a>
+                </nav>
                
                 <!-- Classic Pizzas For Classic Maniacs  -->
-                <li>
-                  <a class="subcategories btn" data-bs-toggle="collapse" href="#Maniacs" role="button" aria-expanded="false">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/image-classic.jpg" alt="Classic Pizzas For Classic Maniacs">
-                      </span>
-                      <span>Classic Pizzas For Classic Maniacs</span>
+                <a class="subcategories nav-link" href="#Classic-Maniacs" data-bs-toggle="collapse" data-bs-target="#collapsibleContent3" aria-expanded="false" aria-controls="collapsibleContent3">
+                  <span class="d-flex align-items-center">
+                    <span class="sm-img">
+                      <img src="./Img/image-classic.jpg" alt="Classic Pizzas For Classic Maniacs">
                     </span>
-                    <span class="count-n">(13)</span>
-                  </a>
-                </li>
-                <ul class="collapse child-menu" id="Maniacs">
-                  <li><a href="#">Classic Pizzas For Classic Maniacs</a></li>
-                  <li><a href="#">Classic Pizzas Pack Of 4</a></li>
-                </ul>
+                    <span>Classic Pizzas For Classic Maniacs</span>
+                  </span>
+                  <span class="count-n">(13)</span>
+                </a>
+                <nav class="collapse child-menu nav" id="collapsibleContent3">
+                  <a class="nav-link" href="#For-Classic-Maniacs">Classic Pizzas For Classic Maniacs</a>
+                  <a class="nav-link" href="#Classic-Pizzas-Pack-Of-4">Classic Pizzas Pack Of 4</a>
+                </nav>
                 <!-- Sides -->
-                <li>
-                  <a class="subcategories btn" data-bs-toggle="collapse" href="#Sides" role="button" aria-expanded="false">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/image-2.png" alt="Sides">
-                      </span>
-                      <span>Sides</span>
+                <a class="subcategories nav-link" href="#Sides" data-bs-toggle="collapse" data-bs-target="#collapsibleContent4" aria-expanded="false" aria-controls="collapsibleContent4">
+                  <span class="d-flex align-items-center">
+                    <span class="sm-img">
+                      <img src="./Img/image-2.png" alt="Sides">
                     </span>
-                    <span class="count-n">(31)</span>
-                  </a>
-                </li>
-                <ul class="collapse child-menu" id="Sides">
-                  <li><a href="#">Garlic Bread</a></li>
-                  <li><a href="#">Garlic Sticks</a></li>
-                  <li><a href="#">Lasagna</a></li>
-                  <li><a href="#">Spaghetti</a></li>
-                  <li><a href="#">Pasta Veg</a></li>
-                  <li><a href="#">Taco's</a></li>
-                  <li><a href="#">Macaroni & Cheese</a></li>
-                  <li><a href="#">Quesadillas</a></li>
-                  <li><a href="#">Dip</a></li>
-                </ul>
+                    <span>Sides</span>
+                  </span>
+                  <span class="count-n">(31)</span>
+                </a>
+                <nav class="collapse child-menu nav" id="collapsibleContent4">
+                  <a class="nav-link" href="#Garlic-Bread">Garlic Bread</a>
+                  <a class="nav-link" href="#Garlic-Sticks">Garlic Sticks</a>
+                  <a class="nav-link" href="#Lasagna">Lasagna</a>
+                  <a class="nav-link" href="#Spaghetti">Spaghetti</a>
+                  <a class="nav-link" href="#Pasta-Veg">Pasta Veg</a>
+                  <a class="nav-link" href="#Tacos">Taco's</a>
+                  <a class="nav-link" href="#Macaroni-Cheese">Macaroni & Cheese</a>
+                  <a class="nav-link" href="#Quesadillas">Quesadillas</a>
+                  <a class="nav-link" href="#Dip">Dip</a>
+                </nav>
                 <!-- Combos -->
-                <li>
-                  <a class="subcategories btn" data-bs-toggle="collapse" href="#Combos" role="button" aria-expanded="false">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/image-5.png" alt="Combos">
-                      </span>
-                      <span>Combos</span>
+                <a class="subcategories nav-link" href="#Combos" data-bs-toggle="collapse" data-bs-target="#collapsibleContent5" aria-expanded="false" aria-controls="collapsibleContent5">
+                  <span class="d-flex align-items-center">
+                    <span class="sm-img">
+                      <img src="./Img/image-5.png" alt="Combos">
                     </span>
-                    <span class="count-n">(28)</span>
-                  </a>
-                </li>
-                <ul class="collapse child-menu" id="Combos">
-                  <li><a href="#">Meal For One</a></li>
-                  <li><a href="#">Meal For Two</a></li>
-                  <li><a href="#">Meal For Four</a></li>
-                  <li><a href="#">Festive Combo</a></li>
-                  <li><a href="#">Combo</a></li>
-                </ul>
+                    <span>Combos</span>
+                  </span>
+                  <span class="count-n">(28)</span>
+                </a>
+                <nav class="collapse child-menu nav" id="collapsibleContent5">
+                  <a class="nav-link" href="#Meal-One">Meal For One</a>
+                  <a class="nav-link" href="#Meal-Two">Meal For Two</a>
+                  <a class="nav-link" href="#Meal-Four">Meal For Four</a>
+                  <a class="nav-link" href="#Festive-Combo">Festive Combo</a>
+                  <a class="nav-link" href="#Combo">Combo</a>
+                </nav>
 
                  <!-- Dessert -->
-                 <li>
-                  <a href="#" class="subcategories">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/image-chocopng.png" alt="Personal Slice Pizza">
-                      </span>
-                      <span>Dessert</span>
+                <a href="#Dessert" class="subcategories nav-link">
+                  <span class="d-flex align-items-center">
+                    <span class="sm-img">
+                      <img src="./Img/image-chocopng.png" alt="Personal Slice Pizza">
                     </span>
-                    <span class="count-n">(2)</span>
-                  </a>
-                </li>
+                    <span>Dessert</span>
+                  </span>
+                  <span class="count-n">(2)</span>
+                </a>
 
-                <!-- Dessert -->
-                <li class="border-bottom-0">
-                  <a href="#" class="subcategories ">
-                    <span class="d-flex align-items-center">
-                      <span class="sm-img">
-                        <img src="./Img/cocacola.jpg" alt="Personal Slice Pizza">
-                      </span>
-                      <span>Beverages</span>
+                <!-- Beverages -->
+                <a href="#Beverages" class="subcategories nav-link border-bottom-0">
+                  <span class="d-flex align-items-center">
+                    <span class="sm-img">
+                      <img src="./Img/cocacola.jpg" alt="Personal Slice Pizza">
                     </span>
-                    <span class="count-n">(2)</span>
-                  </a>
-                </li>
+                    <span>Beverages</span>
+                  </span>
+                  <span class="count-n">(2)</span>
+                </a>
 
-              </ul>
-            </div>
+              </nav>
+            </nav>
           </div>
         </div>
         <!-- Items Sections -->
-        <div class="col-xl-7 col-lg-6">
+        <div class="col-xl-7 col-lg-6 position-relative">
           <!-- Choose items -->
           <div class="choose-items">
             <div class="row">
@@ -527,7 +466,7 @@
               </div>
             </div>
             <!-- Product List -->
-            <div class="productList">
+            <div class="productList scrollspy-example-2" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"  tabindex="0" data-bs-offset="56">
 
               <div class="featured-item py-2" id="Featured-Items">
                 <h2 class="common-heading"><span>Featured Items</span></h2>
@@ -644,7 +583,7 @@
                 </div>
               </div>
 
-              <div class="product-section1 py-2" id="3medium-pizza">
+              <div class="product-section1 py-2" id="medium-pizza">
                 <h2 class="common-heading"><span>3 Medium Pizza @1099</span></h2>
                 <div class="row">
                   <h3 class="sub-heading mb-3">3 Medium Pizza @1099</h3>
@@ -672,7 +611,7 @@
                 </div>
               </div>
 
-              <div class="product-section2 py-2" id="Festive">
+              <div class="product-section2 py-2" id="Festives">
                 <h2 class="common-heading"><span>Festive Menu @79/149/189</span></h2>
                 <div class="row g-3">
                   <h3 class="sub-heading" id="veg-menu79">Veg Menu @ 79</h3>
@@ -1064,7 +1003,7 @@
                 </div>
               </div>
 
-              <div class="product-section3 py-2">
+              <div class="product-section3 py-2" id="Lunch-Feast">
                 <h2 class="common-heading"><span>Lunch Feast</span></h2>
                 <div class="row g-3">
                   <h3 class="sub-heading mb-3">Lunch Feast</h3>
@@ -1171,1601 +1110,7 @@
                 </div>
               </div>
 
-              <div class="product-section4 py-2">
-                <h2 class="common-heading"><span>Flat Out</span></h2>
-                <div class="row g-3">
-                  <h3 class="sub-heading">Any Veg Medium Pizza @ Flat 399</h3>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i> <span class="badge">New</span>
-                          </div>
-                          <h4 class="item-title">Burn To Hell Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <div class="rating">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                          </div>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">A fiery and lethal combination of hot & garlic dip, jalapenos, mushroom.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat0.jpeg" alt="flat0" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Tandoori Paneer Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">Capsicum, Onion, Paneer, Sweet Corn In Korma Dip</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat1.jpg" alt="flate1" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Pesto & Basil Special Pizza (Medium (Serves 2, 24.5 Cm))</h4>
-                          <div class="rating">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                          </div>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">Capsicum, Jalapenos ,Paneer with Pesto & Basil Dip</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat1.jpg" alt="flat33" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Paneer Special (Medium (Serves 2,24.5 Cm))</h4>
-                          <div class="rating">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                          </div>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">Onion, Capsicum, Double Paneer, Red Paprika In Korma Dip</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flate2.jpg" alt="flat4" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Paneer Tikka Butter Masala Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <div class="rating">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                          </div>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">An indian Speciality on a La Pinoz Pizza. Exotic Paneer Tikka, Onion</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat5.jpeg" alt="flat5" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Garden Special (Medium (Serves 2,24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">A close cousin of the gardne delight. Capsicum,Mushrooms,Onion</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat6.jpg" alt="flat6" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Double Cheese Margherita Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <div class="rating">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                          </div>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">Loaded with extra cheese</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat7.jpg" alt="flat7" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Sweet Heat (Medium (Serves 2,24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">[Available in Jain] Jalapenos, Pineapples, Sweet Corns, Red Paprika</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat8.jpeg" alt="flat8" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Sweet Heat (Medium (Serves 2,24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">[Available in Jain] Jalapenos, Pineapples, Sweet Corns, Red Paprika</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat8.jpeg" alt="flat8" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Sweet Heat (Medium (Serves 2,24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">[Available in Jain] Jalapenos, Pineapples, Sweet Corns, Red Paprika</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat8.jpeg" alt="flat8" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Sweet Heat (Medium (Serves 2,24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">[Available in Jain] Jalapenos, Pineapples, Sweet Corns, Red Paprika</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat8.jpeg" alt="flat8" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Sweet Heat (Medium (Serves 2,24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">[Available in Jain] Jalapenos, Pineapples, Sweet Corns, Red Paprika</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat8.jpeg" alt="flat8" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Sweet Heat (Medium (Serves 2,24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">[Available in Jain] Jalapenos, Pineapples, Sweet Corns, Red Paprika</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat9.jpeg" alt="flat9" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Sweet Heat (Medium (Serves 2,24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>399</span>
-                          </p>
-                          <p class="heading-customize mb-0">[Available in Jain] Jalapenos, Pineapples, Sweet Corns, Red Paprika</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat10.jpg" alt="flat10" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <h3 class="sub-heading">Speciality Medium @449</h3>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat17.jpg" alt="flat17" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat18.jpeg" alt="flat18" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat19.jpeg" alt="flat19" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <h3 class="sub-heading">Any Veg Large Pizza @ Flat 449</h3>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Paneer 65 (Large (Serves 4, 33 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A Combination Of Onion, Capsicum, Red Paprika, Paneer 65 With Extra Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg1.jpeg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Lovers Bite Pizza (Large (Serves 4, 33 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A wholesome combination of tossed mushrooms, olives and juicy</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg2.jpg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Paneer 65 (Large (Serves 4, 33 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A Combination Of Onion, Capsicum, Red Paprika, Paneer 65 With Extra Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg1.jpeg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Lovers Bite Pizza (Large (Serves 4, 33 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A wholesome combination of tossed mushrooms, olives and juicy</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg2.jpg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Paneer 65 (Large (Serves 4, 33 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A Combination Of Onion, Capsicum, Red Paprika, Paneer 65 With Extra Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg1.jpeg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Lovers Bite Pizza (Large (Serves 4, 33 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A wholesome combination of tossed mushrooms, olives and juicy</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg2.jpg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Paneer 65 (Large (Serves 4, 33 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A Combination Of Onion, Capsicum, Red Paprika, Paneer 65 With Extra Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg1.jpeg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Lovers Bite Pizza (Large (Serves 4, 33 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A wholesome combination of tossed mushrooms, olives and juicy</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg2.jpg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Paneer 65 (Large (Serves 4, 33 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A Combination Of Onion, Capsicum, Red Paprika, Paneer 65 With Extra Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg1.jpeg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Lovers Bite Pizza (Large (Serves 4, 33 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A wholesome combination of tossed mushrooms, olives and juicy</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg2.jpg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Paneer 65 (Large (Serves 4, 33 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A Combination Of Onion, Capsicum, Red Paprika, Paneer 65 With Extra Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg1.jpeg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Lovers Bite Pizza (Large (Serves 4, 33 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A wholesome combination of tossed mushrooms, olives and juicy</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg2.jpg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Paneer Tikka Butter Masala Pizza (Large (Serves 4, 33 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A Combination Of Onion, Capsicum, Red Paprika, Paneer 65 With Extra Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg3.jpeg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Tandoori Paneer Pizza (Large (Serves 4, 33 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">A wholesome combination of tossed mushrooms, olives and juicy</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/veg4.jpg" alt="veg" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <h3 class="sub-heading">Speciality Large @499</h3>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best3.jpeg" alt="flat15" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat16.jpg" alt="flat16" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">English Retreat Pizza (Medium (Serves 2, 24.5 CM))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese, Jalapeno Dip.</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat17.jpg" alt="flat17" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/flat18.jpeg" alt="flat18" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-12 col-md-6">
-                    <div class="product-card customization">
-                      <div class="product-card-inner">
-                        <div class="product-card-details-left">
-                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
-                          <h4 class="item-title">Mexican Salsa (Medium (Serves 2, 24.5 Cm))</h4>
-                          <p class="price">
-                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
-                            <i class="bi bi-currency-rupee"></i><span>449</span>
-                          </p>
-                          <p class="heading-customize mb-0">Mexican Salsa Dip, Capsicum, Sweet Corns, Jalapenos, Onion & Mushroom</p>
-                        </div>
-                        <div class="product-card-details-right">
-                          <div class="product-card-img-outer position-relative">
-                            <div class="product-card-img-inner">
-                              <img src="./Img/best4.png" alt="flat19" width="400" height="400" class="img-fluid">
-                            </div>
-                            <div class="cart-button customisables">
-                              <button type="button" class="btn">ADD +</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="product-section5 py-2">col-xl-6 col-lg-12 
+              <div class="product-section5 py-2" id="Personal-Slice">
                 <h2 class="common-heading"><span>Personal Slice Pizza</span></h2>
                 <div class="row g-3">
                   <h3 class="sub-heading mb-3">Personal Slice Veg Pizza.</h3>
@@ -3888,10 +2233,10 @@
                 </div>
               </div>
 
-              <div class="product-section6 py-2">
+              <div class="product-section6 py-2" id="Veg-Pizza">
                 <h2 class="common-heading"><span>Veg Pizza</span></h2>
                 <div class="row g-3">
-                  <h3 class="sub-heading">Classic Veg</h3>
+                  <h3 class="sub-heading" id="Classic-Veg">Classic Veg</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -3951,7 +2296,7 @@
                   </div>
                   
                   
-                  <h3 class="sub-heading">Simply Veg</h3>
+                  <h3 class="sub-heading" id="Simply-Veg">Simply Veg</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4004,7 +2349,7 @@
                   </div>
                   
                   
-                  <h3 class="sub-heading">Exotic Veg</h3>
+                  <h3 class="sub-heading" id="Exotic-Veg">Exotic Veg</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4057,7 +2402,7 @@
                   </div>
                   
 
-                  <h3 class="sub-heading">Speciality Veg</h3>
+                  <h3 class="sub-heading" id="Speciality-Veg">Speciality Veg</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4111,10 +2456,10 @@
                 </div>
               </div>
 
-              <div class="product-section7 py-2">
-                <h2 class="common-heading"><span>Classic Pizzas For Classic Maniacs </span></h2>
+              <div class="product-section7 py-2" id="Classic-Maniacs">
+                <h2 class="common-heading"><span>Classic Pizzas For Classic Maniacs</span></h2>
                 <div class="row g-3">
-                  <h3 class="sub-heading">Classic Pizzas For Classic Maniacs</h3>
+                  <h3 class="sub-heading" id="For-Classic-Maniacs">Classic Pizzas For Classic Maniacs</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card">
                       <div class="product-card-inner">
@@ -4178,7 +2523,7 @@
                     </div>
                   </div>
                   
-                  <h3 class="sub-heading"> Classic Pizzas Pack Of </h3>
+                  <h3 class="sub-heading" id="Classic-Pizzas-Pack-Of-4">Classic Pizzas Pack Of 4</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card">
                       <div class="product-card-inner">
@@ -4245,10 +2590,10 @@
                 </div>
               </div>
 
-              <div class="product-section8 py-2">
+              <div class="product-section8 py-2" id="Sides">
                 <h2 class="common-heading"><span>Sides</span></h2>
                 <div class="row g-3">
-                  <h3 class="sub-heading">Garlic Bread</h3>
+                  <h3 class="sub-heading" id="Garlic-Bread">Garlic Bread</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4307,7 +2652,7 @@
                     </div>
                   </div>
                   
-                  <h3 class="sub-heading">Garlic Sticks</h3>
+                  <h3 class="sub-heading" id="Garlic-Sticks">Garlic Sticks</h3>
                     <div class="col-xl-6 col-lg-12 col-md-6">
                       <div class="product-card customization">
                         <div class="product-card-inner">
@@ -4366,7 +2711,7 @@
                       </div>
                     </div>
                   
-                  <h3 class="sub-heading">Lasagna</h3>
+                  <h3 class="sub-heading" id="Lasagna">Lasagna</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4425,7 +2770,7 @@
                     </div>
                   </div>
                   
-                  <h3 class="sub-heading">Spaghetti</h3>
+                  <h3 class="sub-heading" id="Spaghetti">Spaghetti</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4484,7 +2829,7 @@
                     </div>
                   </div>
 
-                  <h3 class="sub-heading">Pasta Veg</h3>
+                  <h3 class="sub-heading" id="Pasta-Veg">Pasta Veg</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4543,7 +2888,7 @@
                     </div>
                   </div>
 
-                  <h3 class="sub-heading">Taco's</h3>
+                  <h3 class="sub-heading" id="Tacos">Taco's</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4602,7 +2947,7 @@
                     </div>
                   </div>
 
-                  <h3 class="sub-heading">Macaroni & Cheese</h3>
+                  <h3 class="sub-heading" id="Macaroni-Cheese">Macaroni & Cheese</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4661,7 +3006,7 @@
                     </div>
                   </div>
 
-                  <h3 class="sub-heading">Quesadillas</h3>
+                  <h3 class="sub-heading" id="Quesadillas">Quesadillas</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4720,7 +3065,7 @@
                     </div>
                   </div>
 
-                  <h3 class="sub-heading">Dip</h3>
+                  <h3 class="sub-heading" id="Dip">Dip</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4782,10 +3127,10 @@
                 </div>
               </div>
 
-              <div class="product-section9 py-2">
+              <div class="product-section9 py-2" id="Combos">
                 <h2 class="common-heading"><span>Combos</span></h2>
                 <div class="row g-3">
-                  <h3 class="sub-heading">Meal For One</h3>
+                  <h3 class="sub-heading" id="Meal-One">Meal For One</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4843,7 +3188,7 @@
                     </div>
                   </div>
                   
-                  <h3 class="sub-heading">Meal For Two</h3>
+                  <h3 class="sub-heading" id="Meal-Two">Meal For Two</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4901,7 +3246,7 @@
                     </div>
                   </div>
                   
-                  <h3 class="sub-heading">Meal For Four</h3>
+                  <h3 class="sub-heading" id="Meal-Four">Meal For Four</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card customization">
                       <div class="product-card-inner">
@@ -4959,7 +3304,7 @@
                     </div>
                   </div>
 
-                  <h3 class="sub-heading">Festive Combo</h3>
+                  <h3 class="sub-heading" id="Festive-Combo">Festive Combo</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card">
                       <div class="product-card-inner">
@@ -5023,7 +3368,7 @@
                     </div>
                   </div>
 
-                  <h3 class="sub-heading">Combo</h3>
+                  <h3 class="sub-heading" id="Combo">Combo</h3>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card">
                       <div class="product-card-inner">
@@ -5090,10 +3435,72 @@
                 </div>
               </div>
 
-              <div class="product-section10 py-2">
+              <div class="product-section10 py-2" id="Dessert">
                 <h2 class="common-heading"><span>Dessert</span></h2>
                 <div class="row g-3">
                   <h3 class="sub-heading">Dessert</h3>
+                  <div class="col-xl-6 col-lg-12 col-md-6">
+                    <div class="product-card">
+                      <div class="product-card-inner">
+                        <div class="product-card-details-left">
+                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
+                          <h4 class="item-title">Choco Lava</h4>
+                          <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                          </div>
+                          <p class="price">
+                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
+                            <i class="bi bi-currency-rupee"></i><span>119</span>
+                          </p>
+                          <p class="heading-customize mb-0">Small muffin infused with warm chocolate! Vintage Dessert</p>
+                        </div>
+                        <div class="product-card-details-right">
+                          <div class="product-card-img-outer position-relative">
+                            <div class="product-card-img-inner">
+                              <img src="./Img/cake1.jpg" alt="cake1" width="400" height="400" class="img-fluid">
+                            </div>
+                            <div class="cart-button">
+                              <button type="button" class="btn">ADD +</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-12 col-md-6">
+                    <div class="product-card">
+                      <div class="product-card-inner">
+                        <div class="product-card-details-left">
+                          <div class="veg-flag mb-0"><i class="bi bi-record-btn"></i></div>
+                          <h4 class="item-title">Triple Chocolate Brownie</h4>
+                          <div class="rating">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                          </div>
+                          <p class="price">
+                            <!-- <small style="color: #848484; font-size: 85%;"><s><i class="bi bi-currency-rupee"></i>145</s></small> -->
+                            <i class="bi bi-currency-rupee"></i><span>129</span>
+                          </p>
+                          <p class="heading-customize mb-0">Small muffin infused with warm chocolate! Vintage Dessert</p>
+                        </div>
+                        <div class="product-card-details-right">
+                          <div class="product-card-img-outer position-relative">
+                            <div class="product-card-img-inner">
+                              <img src="./Img/cake2.jpeg" alt="cake" width="400" height="400" class="img-fluid">
+                            </div>
+                            <div class="cart-button">
+                              <button type="button" class="btn">ADD +</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div class="col-xl-6 col-lg-12 col-md-6">
                     <div class="product-card">
                       <div class="product-card-inner">
@@ -5160,7 +3567,7 @@
                 </div>
               </div>
 
-              <div class="product-section11 py-2">
+              <div class="product-section11 py-2" id="Beverages">
                 <h2 class="common-heading"><span>Beverages</span></h2>
                 <div class="row g-3">
                   <h3 class="sub-heading">Beverages</h3>
@@ -5233,26 +3640,160 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-3 d-lg-block d-none">
+        <div class="col-xl-3 col-lg-3 d-lg-block d-none position-relative">
           <div class="cart-list">
             <h2 class="main-heading p-0">Your Cart</h2>
             <div class="delivery-div">
               <div class="order-type">
                 <a class="btn active" href="#" role="button"><span>Delivery</span><i class="bi bi-check-circle-fill" style="font-size: 10px; margin-left: 4px;"></i> <small class="d-block w-100">1 Hour</small></a>
-                <a class="btn " href="#" role="button">Pickup</a>
-                <a class="btn " href="#" role="button">Dine-in</a>
+                <a class="btn " href="#" role="button" data-bs-toggle="modal" data-bs-target="#pickup">Pickup</a>
+                <a class="btn " href="#" role="button" data-bs-toggle="modal" data-bs-target="#in-car">In Car</a>
               </div>
             </div>
-            <div class="cart-items-outer">
+            <div class="cart-items-outer " id="empty-cart">
               <div class="cart-display">
                 <img src="./Img/cart.png" alt="favorite" width="512" height="512" class="img-fluid">
                 <h3>Your Cart is Empty</h3>
                 <p class="mb-0">We Know Your Food Cravings. Add Your Favorite Meal Now!</p>
               </div>
             </div>
+            <div class="cart-item-total d-none" id="add-cart">
+              <div class="add-cart-item-total">
+                <div class="cart-add">
+                  <div class="row">
+                    <div class="col-8 ">
+                      <div class="cart-lft-btn">
+                        <div class="veg-flag mb-0 me-2"><i class="bi bi-record-btn"></i></div>
+                        <div>
+                          <p>Veg Menu @ 79-My Mac (Regular (Serves 1, 17.7 CM))</p>
+                          <p class="price">
+                            <span style="font-weight: 400; margin-right: 10px;">1 x <i class="bi bi-currency-rupee"
+                                style="font-size: 13px;"></i>79</span>
+                            <i class="bi bi-currency-rupee"></i><span>79</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4 cart-rgt-btn">
+                        <div class="cart-new-btn">
+                          <button class="btn plus-minu"><i class="bi bi-plus-lg"></i></button>
+                          <input type="text" class="count" name="qty" value="1">
+                          <button class="btn plus-minu"><i class="bi bi-dash"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-add">
+                  <div class="row">
+                    <div class="col-8 ">
+                      <div class="cart-lft-btn">
+                        <div class="veg-flag mb-0 me-2"><i class="bi bi-record-btn"></i></div>
+                        <div>
+                          <p>Veg Menu @ 79-My Mac (Regular (Serves 1, 17.7 CM))</p>
+                          <p class="price">
+                            <span style="font-weight: 400; margin-right: 10px;">1 x <i class="bi bi-currency-rupee"
+                                style="font-size: 13px;"></i>79</span>
+                            <i class="bi bi-currency-rupee"></i><span>79</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4 cart-rgt-btn ">
+                        <div class="cart-new-btn">
+                          <button class="btn plus-minu"><i class="bi bi-plus-lg"></i></button>
+                          <input type="text" class="count" name="qty" value="1">
+                          <button class="btn plus-minu"><i class="bi bi-dash"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-add">
+                  <div class="row">
+                    <div class="col-8 ">
+                      <div class="cart-lft-btn">
+                        <div class="veg-flag mb-0 me-2"><i class="bi bi-record-btn"></i></div>
+                        <div>
+                          <p>Veg Menu @ 79-My Mac (Regular (Serves 1, 17.7 CM))</p>
+                          <p class="price">
+                            <span style="font-weight: 400; margin-right: 10px;">1 x <i class="bi bi-currency-rupee"
+                                style="font-size: 13px;"></i>79</span>
+                            <i class="bi bi-currency-rupee"></i><span>79</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4 cart-rgt-btn ">
+                        <div class="cart-new-btn">
+                          <button class="btn plus-minu"><i class="bi bi-plus-lg"></i></button>
+                          <input type="text" class="count" name="qty" value="1">
+                          <button class="btn plus-minu"><i class="bi bi-dash"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-add">
+                  <div class="row">
+                    <div class="col-8 ">
+                      <div class="cart-lft-btn">
+                        <div class="veg-flag mb-0 me-2"><i class="bi bi-record-btn"></i></div>
+                        <div>
+                          <p>Veg Menu @ 79-My Mac (Regular (Serves 1, 17.7 CM))</p>
+                          <p class="price">
+                            <span style="font-weight: 400; margin-right: 10px;">1 x <i class="bi bi-currency-rupee"
+                                style="font-size: 13px;"></i>79</span>
+                            <i class="bi bi-currency-rupee"></i><span>79</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4 cart-rgt-btn ">
+                        <div class="cart-new-btn">
+                          <button class="btn plus-minu"><i class="bi bi-plus-lg"></i></button>
+                          <input type="text" class="count" name="qty" value="1">
+                          <button class="btn plus-minu"><i class="bi bi-dash"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-add">
+                  <div class="row">
+                    <div class="col-8 ">
+                      <div class="cart-lft-btn">
+                        <div class="veg-flag mb-0 me-2"><i class="bi bi-record-btn"></i></div>
+                        <div>
+                          <p>Veg Menu @ 79-My Mac (Regular (Serves 1, 17.7 CM))</p>
+                          <p class="price">
+                            <span style="font-weight: 400; margin-right: 10px;">1 x <i class="bi bi-currency-rupee"
+                                style="font-size: 13px;"></i>79</span>
+                            <i class="bi bi-currency-rupee"></i><span>79</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4 cart-rgt-btn ">
+                        <div class="cart-new-btn">
+                          <button class="btn plus-minu"><i class="bi bi-plus-lg"></i></button>
+                          <input type="text" class="count" name="qty" value="1">
+                          <button class="btn plus-minu"><i class="bi bi-dash"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="subtotal">
+                <div class="total">
+                  <p>Subtotal</p>
+                  <p><i class="bi bi-currency-rupee"></i><span>158</span></p>
+                </div>
+                <a class="btn checkout-btn" href="./Checkout.html" role="button">Checkout <i class="bi bi-currency-rupee"></i><span>169.95</span></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+<!-- Mobile  -->
       <div class="fixed-cart-data d-lg-none d-block">
         <div class="row m-0 justify-content-center">
           <div class="col-6 ps-2 text-center">
@@ -5286,115 +3827,91 @@
     </div>
   </section>
 
-  <!-- <div class="wrap-14 footer-top py-3">
-    <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-md-2 col-6 ps-2 ps-md-3 pe-2 pe-md-3">
-          <h2><span class="border-bottom pb-2 pe-1">Useful</span>Links</h2>
-          <ul class="pt-3">
-            <li><a href="shipping.html">Shipping Policy</a></li>
-            <li><a href="refund.html">Refund Policy</a></li>
-            <li><a href="terms.html">Terms & Conditions</a></li>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="promo.html">Promo Codes</a></li>
-          </ul>
+  <!-- Modal Pickup-->
+  <div class="modal fade" id="pickup" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content rounded-5 px-4">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel1">Pickup Order</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="col-md-2 col-6 ps-2 ps-md-3 pe-2 pe-md-3">
-          <h2><span class="border-bottom pb-2 pe-1">Payment</span>Methods</h2>
-          <ul class="payments pt-3"> 
-            <li>
-              <img src="./Img/cash-svg.svg" alt="cash" class="img-fluid" width="50" height="30" loading="lazy">
-              <img src="./Img/visa-svg.svg" alt="visa" class="img-fluid" width="50" height="30" loading="lazy">
-              <img src="./Img/mastercard-svg.svg" alt="mastercard" class="img-fluid" width="50" height="30" loading="lazy">
-              <img src="./Img/gpay-svg.svg" alt="gpay" class="img-fluid" width="50" height="30" loading="lazy">
-              <img src="./Img/paytm-svg.svg" alt="paytm" class="img-fluid" width="50" height="30" loading="lazy">
-              <img src="./Img/upi-icon.svg" alt="upi" class="img-fluid" width="50" height="30" loading="lazy">
-            </li>
-          </ul>
-      
-          <div class="follow d-block d-md-none">
-              <h2><span class="border-bottom pb-2 pe-1">Follow</span>Us</h2>
-              <p class="pt-3 mb-0">
-                <a href="#">
-                  <span class="bi bi-facebook"></span>
-                </a>
-                <a href="#">
-                  <span class="bi bi-instagram"></span>
-                </a>
-                <a href="#">
-                  <span class="bi bi-youtube"></span>
-                </a>
-                <a href="#">
-                  <span class="bi bi-pinterest"></span>
-                </a>
-                <a href="#">
-                  <span class="bi bi-twitter"></span>
-                </a>
-              </p>
-          </div>
-        </div>
-        <div class="col-md-3 col-12 ps-2 ps-md-3 pe-2 pe-md-3">
-          <h2><span class="border-bottom pb-2 pe-1">Address</span></h2>
-          <address class="pt-3">Copenhagen Hospitality and RETAILS Godown Area, Zirakpur, Bhabat, Punjab 140604</address>
-        </div>
-        <div class="col-md-3 col-12 ps-2 ps-md-3 pe-2 pe-md-3">
-          <h2><span class="border-bottom pb-2 pe-1">Contact</span>Us</h2>
-          <ul class="pt-3">
-            <li>
-              <span>Customer Support:</span>
-              <a class="d-inline d-md-block" href="mailto:support@gmail.com">
-                <span class="bi bi-envelope"></span> support@gmail.com
-              </a>
-            </li>
-            <li>
-              <span>Franchise Enquiry:</span>
-              <a class="d-inline d-md-block" href="mailto:support@gmail.com">
-                <span class="bi bi-envelope"></span> info@gmail.com
-              </a>
-            </li>
-            <li><a href="tel:0123456789"><span class="bi bi-telephone"></span> 0123456789</a></li>
-          </ul>
-        </div>
-        <div class="col-md-2 col-12 ps-2 ps-md-3 pe-2 pe-md-3">
-          <div class="follow d-none d-md-block">
-            <h2><span class="border-bottom pb-2 pe-1">Follow</span>Us</h2>
-            <p class="pt-3 mb-0">
-              <a href="#">
-                <span class="bi bi-facebook"></span>
-              </a>
-              <a href="#">
-                <span class="bi bi-instagram"></span>
-              </a>
-              <a href="#">
-                <span class="bi bi-youtube"></span>
-              </a>
-              <a href="#">
-                <span class="bi bi-pinterest"></span>
-              </a>
-              <a href="#">
-                <span class="bi bi-twitter"></span>
-              </a>
-            </p>
+        <div class="modal-body text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;max-width: 100px;" xml:space="preserve">
+						<style type="text/css">
+							.st0{fill:#939393;}
+						</style>
+						<path class="st0" d="M472.4,0h-18.6c-10.8,0.8-19.5,9-21.1,19.6H276.7c-16.3,0-32.3,4.1-46.6,11.8l-63.7,34.3H65.6  c-17.4,0-31.4,14.1-31.4,31.4v9.4c0,12.8,7.8,24.3,19.6,29.1c-7.8,31.6-38.4,113.1-36.3,145.4l0,202.8c0,15.5,12.5,28,28,28l353,0.1  c5.1-0.1,9.3-4.3,9.4-9.4V267.7c0-0.9-0.1-1.8-0.4-2.6l-36.8-124.4c20.3-3.6,36.2-19.4,40.1-39.6h20.9c-0.6,13,9.1,24.3,22,25.7  h18.6c12.5,0,22.2-12.3,22.2-28V28C494.6,12.3,484.8,0,472.4,0L472.4,0z M52.8,106.6v-9.4c0-7.1,5.7-12.8,12.8-12.8h223.6l-34.9,35  H65.6C58.5,119.4,52.8,113.7,52.8,106.6z M36.2,483.9c1.9-30.4-5.3-217.6,5.8-242.7l30.6-103.2h169c-6.6,20.3,4.5,42.1,24.8,48.7  c12,3.9,25.1,1.7,35.2-5.8l32.4-24.7l-28.1,104.5c-0.2,4.4-0.5,228.5-0.3,232.5l-259.9,0C40.4,493.3,36.2,489.1,36.2,483.9  L36.2,483.9z M356.6,473.9l19.4,19.4h-38.7L356.6,473.9z M389.2,269v211.1L366,456.9V279.1c-0.1-5.2-4.4-9.2-9.5-9.1  c-5,0.1-9,4.1-9.1,9.1v177.7L324.1,480V264.4l30.4-112.9L389.2,269z M431.6,82.3h-29.2c-5.2,0-9.3,4.2-9.3,9.3  c0,17.2-13.9,31.1-31.1,31.1c-0.8,0.1-12.8-0.2-13.2,0.2c-0.5-2.8-57.1,42.7-58.7,43.2c-8.9,6.6-21.4,4.7-28-4.1  c-5.8-7.9-5.1-18.8,1.7-25.9l54.4-54.5c3.6-3.7,3.5-9.7-0.2-13.3c-1.7-1.7-4-2.6-6.4-2.6H205.8c20.3-10.3,47.1-29.1,71-27.4l154.8,0  L431.6,82.3z M475.9,98.7c0.4,3.5-0.9,7-3.6,9.3l-18.5,0c-2.7-2.3-4-5.8-3.6-9.3V29.1c-0.5-5,2.6-10.7,3.6-10.5l18.5,0  c2.7,2.3,4,5.8,3.6,9.3L475.9,98.7z"></path>
+						<g>
+							<path class="st0" d="M107.8,223.5c-27.9,0-50.6,26-50.6,57.9c-0.5,21.4,10.6,41.3,28.9,52.2v85.2c0,12,9.7,21.7,21.7,21.7   c12,0,21.7-9.7,21.7-21.7v-85.2c18.4-10.9,29.4-30.9,28.9-52.2C158.4,249.5,135.7,223.5,107.8,223.5z M119.5,322.4   c-2.7,1.1-4.5,3.8-4.5,6.7v89.7c0,4-3.2,7.2-7.2,7.2c-4,0-7.2-3.2-7.2-7.2V329c0-2.9-1.8-5.6-4.5-6.7c-15.6-7.6-25.2-23.7-24.5-41   c0-23.9,16.2-43.4,36.2-43.4c19.9,0,36.2,19.5,36.2,43.4C144.6,298.7,135,314.8,119.5,322.4z"></path>
+							<path class="st0" d="M266.9,223.5c-4,0-7.2,3.2-7.2,7.2v72.3c0,12-9.7,21.7-21.7,21.7c-4,0-7.2,3.2-7.2,7.2v86.8   c0,4-3.2,7.2-7.2,7.2c-4,0-7.2-3.2-7.2-7.2V332c0-4-3.2-7.2-7.2-7.2c-12,0-21.7-9.7-21.7-21.7v-72.3c0-4-3.2-7.2-7.2-7.2   c-4,0-7.2,3.2-7.2,7.2v72.3c0,17.2,12.1,32,28.9,35.4v80.3c0,12,9.7,21.7,21.7,21.7c12,0,21.7-9.7,21.7-21.7v-80.3   c16.8-3.5,28.9-18.3,28.9-35.4v-72.3C274.1,226.7,270.8,223.5,266.9,223.5z"></path>
+							<path class="st0" d="M209,310.3c4,0,7.2-3.2,7.2-7.2v-72.3c0-4-3.2-7.2-7.2-7.2s-7.2,3.2-7.2,7.2v72.3   C201.8,307,205,310.3,209,310.3z"></path>
+							<path class="st0" d="M237.9,310.3c4,0,7.2-3.2,7.2-7.2v-72.3c0-4-3.2-7.2-7.2-7.2c-4,0-7.2,3.2-7.2,7.2v72.3   C230.7,307,233.9,310.3,237.9,310.3z"></path>
+						</g>
+					</svg>
+          <p class="mt-2 mb-3">You have to collect the order from <span id="pickuplocality">Pushraj Chauraha</span> <span id="pickcity">Ayodhya</span></p>
+          <div class="modal-btn">
+            <div class="row">
+              <div class="col-6">
+                <button type="button" class="btn pickup-btn" data-bs-dismiss="modal">Cancel</button>
+              </div>
+              <div class="col-6">
+                <button type="button" class="btn pickup-btn pickup-btn-bg">Confirm Pickup</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
-  <div class="wrap-15 footer-bottom py-2 text-center">
-    <div class="container">
-      <p class="mb-2 mb-md-0 d-block d-md-inline-block">
-        <a href="#">Powered By 
-          <img src="./Img/ue-logo-2022.jpg" alt="ue-logo" class="img-fluid" width="120" height="27">
-        </a>
-      </p>
-      <p class=" ms-0 ms-md-2 mb-0 d-block d-md-inline-block">© All rights reserved.</p>
+  <!-- Modal Dine-in-->
+  <div class="modal fade" id="in-car" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content rounded-5 px-4">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel1">In-Car Order</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;max-width: 100px;" xml:space="preserve">
+						<style type="text/css">
+							.st0{fill:#939393;}
+						</style>
+						<g>
+							<path class="st0" d="M348.6,324.3H163.4c-7.7,0-14.6,4.8-17.3,12.1s-0.4,15.4,5.5,20.3l27.7,23c3.3,2.8,7.5,4.3,11.8,4.3h129.8   c4.3,0,8.4-1.5,11.7-4.3l27.7-23c5.9-4.9,8.1-13.1,5.5-20.3S356.3,324.3,348.6,324.3z M349.4,343.6L349.4,343.6l-27.7,23   c-0.2,0.2-0.5,0.3-0.9,0.3H191.1c-0.3,0-0.6-0.1-0.9-0.3l-27.7-23c-0.5-0.3-0.6-0.9-0.4-1.4c0.1-0.5,0.6-0.9,1.2-0.9h185.2   c0.6,0,1.1,0.3,1.2,0.9C350,342.7,349.8,343.3,349.4,343.6L349.4,343.6z"></path>
+							<path class="st0" d="M460.8,324.3h-39.2c-4.3,0-8.4,1.5-11.7,4.3l-27.8,23c-6,4.9-8.2,13.1-5.6,20.3c2.6,7.3,9.6,12.1,17.3,12.1h67   c9.4,0,17.1-7.6,17.1-17.1v-25.6C477.9,331.9,470.2,324.3,460.8,324.3z M460.8,366.9h-67c-0.6,0.1-1.1-0.3-1.2-0.9   c-0.2-0.5-0.1-1.1,0.4-1.4l27.8-23.1c0.2-0.2,0.5-0.3,0.9-0.3l39.2,0V366.9z"></path>
+							<path class="st0" d="M129.9,351.6l-27.7-23c-3.3-2.7-7.4-4.2-11.7-4.3H51.2c-9.4,0-17.1,7.6-17.1,17.1v25.6   c0,9.4,7.6,17.1,17.1,17.1h67c7.7,0,14.6-4.8,17.3-12.1C138.1,364.6,135.8,356.5,129.9,351.6z M119.4,366.1L119.4,366.1   c-0.1,0.5-0.6,0.9-1.2,0.9h-67v-25.6h39.3c0.3,0,0.6,0.1,0.9,0.3l27.8,23.1C119.5,365,119.6,365.6,119.4,366.1z"></path>
+							<path class="st0" d="M110.9,409.6H51.2c-4.7,0-8.5,3.8-8.5,8.5s3.8,8.5,8.5,8.5h59.7c4.7,0,8.5-3.8,8.5-8.5   S115.6,409.6,110.9,409.6z"></path>
+							<path class="st0" d="M460.8,409.6h-59.7c-4.7,0-8.5,3.8-8.5,8.5s3.8,8.5,8.5,8.5h59.7c4.7,0,8.5-3.8,8.5-8.5   S465.5,409.6,460.8,409.6z"></path>
+							<path class="st0" d="M332.8,409.6H179.2c-4.7,0-8.5,3.8-8.5,8.5s3.8,8.5,8.5,8.5h153.6c4.7,0,8.5-3.8,8.5-8.5   S337.5,409.6,332.8,409.6z"></path>
+							<path class="st0" d="M472.9,273.1h13.5c6.8,0,13.3-2.7,18.1-7.5c4.8-4.8,7.5-11.3,7.5-18.1c0-14.1-11.5-25.6-25.6-25.6h-17.1   c-7.4,0-14.5,3.3-19.3,9l-16-48c-4-11.9-12.9-21.4-24.6-26.1c0-1.1,0.2-2.1,0.2-3.2C409.6,68.8,340.8,0,256,0   c-84.8,0-153.6,68.8-153.6,153.6c0,1.1,0.1,2.1,0.2,3.2C90.9,161.4,82,170.9,78,182.8l-16,48c-4.8-5.7-11.9-8.9-19.3-9H25.6   C11.5,221.9,0,233.3,0,247.5s11.5,25.6,25.6,25.6h13.5L7.6,304.6C2.7,309.4,0,316,0,322.8v112.4c0,10.8,6.9,20.4,17.1,24v27.2   c0,14.1,11.5,25.6,25.6,25.6h59.7c14.1,0,25.6-11.5,25.6-25.6v-25.6h256v25.6c0,14.1,11.5,25.6,25.6,25.6h59.7   c14.1,0,25.6-11.5,25.6-25.6v-27.2c10.2-3.6,17-13.2,17.1-24V322.8c0-6.8-2.7-13.4-7.5-18.2L472.9,273.1z M460.8,247.5   c0-4.7,3.8-8.5,8.5-8.5h17.1c4.7,0,8.5,3.8,8.5,8.5s-3.8,8.5-8.5,8.5h-25.6V247.5z M417.8,188.2l22.6,67.8h-70.3   c20.3-22.6,33.4-50.6,37.7-80.7C412.5,178.4,416,182.9,417.8,188.2z M256,17.1c75.4,0,136.5,61.1,136.5,136.5   S331.4,290.1,256,290.1c-75.4,0-136.5-61.1-136.5-136.5C119.6,78.2,180.6,17.2,256,17.1z M94.2,188.2c1.8-5.3,5.3-9.8,9.9-12.9   c4.3,30,17.4,58.1,37.7,80.7H71.6L94.2,188.2z M25.6,256c-4.7,0-8.5-3.8-8.5-8.5s3.8-8.5,8.5-8.5h17.1c4.7,0,8.5,3.8,8.5,8.5v8.5   H25.6z M110.9,486.4c0,4.7-3.8,8.5-8.5,8.5H42.7c-4.7,0-8.5-3.8-8.5-8.5v-25.6h76.8V486.4z M477.9,486.4c0,4.7-3.8,8.5-8.5,8.5   h-59.7c-4.7,0-8.5-3.8-8.5-8.5v-25.6h76.8L477.9,486.4z M494.9,435.2c0,4.7-3.8,8.5-8.5,8.5H25.6c-4.7,0-8.5-3.8-8.5-8.5V322.8   c0-2.3,0.9-4.5,2.6-6.1l43.6-43.7h96.4c56.2,45.5,136.5,45.5,192.7,0h96.4l43.6,43.7c1.6,1.6,2.6,3.8,2.6,6.1V435.2z"></path>
+							<g>
+								<path class="st0" d="M194,59.1c-25,0-45.3,23.2-45.3,51.8c-0.5,19.1,9.4,37,25.9,46.7v76.2c0,10.7,8.7,19.4,19.4,19.4    c10.7,0,19.4-8.7,19.4-19.4v-76.2c16.4-9.8,26.3-27.6,25.9-46.7C239.3,82.4,219,59.1,194,59.1z M204.5,147.6c-2.4,1-4,3.4-4,6    v80.3c0,3.6-2.9,6.5-6.5,6.5c-3.6,0-6.5-2.9-6.5-6.5v-80.3c0-2.6-1.6-5-4-6c-13.9-6.8-22.5-21.2-21.9-36.7    c0-21.4,14.5-38.8,32.3-38.8c17.8,0,32.3,17.4,32.3,38.8C227,126.4,218.5,140.8,204.5,147.6z"></path>
+								<path class="st0" d="M336.4,59.1c-3.6,0-6.5,2.9-6.5,6.5v64.7c0,10.7-8.7,19.4-19.4,19.4c-3.6,0-6.5,2.9-6.5,6.5v77.6    c0,3.6-2.9,6.5-6.5,6.5s-6.5-2.9-6.5-6.5v-77.6c0-3.6-2.9-6.5-6.5-6.5c-10.7,0-19.4-8.7-19.4-19.4V65.6c0-3.6-2.9-6.5-6.5-6.5    c-3.6,0-6.5,2.9-6.5,6.5v64.7c0,15.4,10.8,28.6,25.9,31.7v71.8c0,10.7,8.7,19.4,19.4,19.4c10.7,0,19.4-8.7,19.4-19.4V162    c15.1-3.1,25.9-16.3,25.9-31.7V65.6C342.9,62,340,59.1,336.4,59.1z"></path>
+								<path class="st0" d="M284.6,136.8c3.6,0,6.5-2.9,6.5-6.5V65.6c0-3.6-2.9-6.5-6.5-6.5s-6.5,2.9-6.5,6.5v64.7    C278.2,133.9,281.1,136.8,284.6,136.8z"></path>
+								<path class="st0" d="M310.5,136.8c3.6,0,6.5-2.9,6.5-6.5V65.6c0-3.6-2.9-6.5-6.5-6.5c-3.6,0-6.5,2.9-6.5,6.5v64.7    C304,133.9,306.9,136.8,310.5,136.8z"></path>
+							</g>
+						</g>
+					</svg>
+          <p class="mt-2 mb-3">Your order will be delivered to your car</p>
+          <div class="modal-btn">
+            <div class="row">
+              <div class="col-6">
+                <button type="button" class="btn pickup-btn" data-bs-dismiss="modal">Cancel</button>
+              </div>
+              <div class="col-6">
+                <button type="button" class="btn pickup-btn pickup-btn-bg">Confirm In-Car</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div> -->
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js" integrity="sha512-An4a3FEMyR5BbO9CRQQqgsBscxjM7uNNmccUSESNVtWn53EWx5B9oO7RVnPvPG6EcYcYPp0Gv3i/QQ4KUzB5WA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./JS/main.js"></script>
+  
 </body>
 </html>

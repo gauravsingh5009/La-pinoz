@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfume</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="wrap-1">
+      <nav class="navbar navbar-expand-lg navbar-dark backgroundcolor">
+        <div class="container">
+          <div class="logo d-flex align-items-center d-none d-md-flex">
+            <h1>
+              <a class="navbar-brand" href="index.html">
+                <img src="./Img/logo-5-1725610081.png" alt="logo" width="500" height="170">
+              </a>
+            </h1>
+            <!-- <div class="change-outlet">
+              <label class="text-color" aria-label="change-outlet">Change Outlet</label>
+              <div>
+                <a class="btn d-flex align-items-center text-color rounded-0" href="#" role="button">
+                  <span class="">Wazidpur Tiraha, Jaunpur</span><span class="bi bi-chevron-down mt-1"></span>
+                </a>
+              </div>
+            </div> -->
+          </div>
+  
+          <div class="d-flex align-items-center  ms-md-auto d-lg-none d-block">
+            <button type="button" class="btn p-0"><i class="bi bi-person fs-4 fw-bolder text-color"></i></button>
+          </div>
+  
+          <div class="mob-logo d-block d-md-none">
+            <a href="#">
+              <img src="./Img/logo-5-1725610081.png" alt="logo" class="img-fluid" width="500" height="170">
+            </a>
+          </div>
+  
+          <button class="navbar-toggler wrapper-menu" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span></span>
+            <span class="two"></span>
+            <span></span>
+          </button>
+  
+          <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarCollapse">
+            <ul class="navbar-nav menu  mb-2 mb-md-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link text-color" aria-current="page" href="index.html">Home <i class="bi bi-chevron-right"></i></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-color" href="order.html">Order Online <i class="bi bi-chevron-right"></i></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-color" href="stores.html">Store Locator <i class="bi bi-chevron-right"></i></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-color" href="enquiry.html">Franchise Enquiry <i class="bi bi-chevron-right"></i></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-color" href="story.html">Our Story <i class="bi bi-chevron-right"></i></a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-color" href="contact.html">Contact Us <i class="bi bi-chevron-right"></i></a>
+              </li>
+              <li class="nav-item mx-3 login-outer active">
+                <div class="row">
+                  <div class="col-12 Order-Online">
+                    <a href="#">Order Online</a>
+                  </div>
+                  <div class="col-12 mt-3 Download-app">
+                    <a href="#">Download The App</a>
+                  </div>
+                  <div class="col-12 mt-1 Exclusive-Discounts">
+                    <p class="mb-0">Get App Exclusive Discounts</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center ms-2 d-none d-lg-block">
+              <button type="button" class="btn p-0"><i class="bi bi-person fs-4 fw-bolder text-color"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-block d-md-none mobileselectcity border-top" style="width: 100%;">
+          <div class="row">
+            <div class="col-7">
+              <p class="mb-0"><span class="bi bi-geo-alt-fill"></span> Civil Line, Jaunpur</p>
+            </div>
+            <div class="col-5 text-end">
+              <div>
+                <a href="#">Change Outlet <span class="bi bi-chevron-down"></span></a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      </nav>
+    </div>
+  </header>
+  
+  <div class="checkout bodybagroundcolor">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12">
+          <div class="checkout-lft-body">
+            <h2 class="d-flex py-3">
+              <a href="./categories.html" class="text-dark d-block me-3">
+                <span class="bi bi-arrow-left-circle"></span>
+              </a>
+              <a href="./categories.html" class="text-dark d-block fs-5">
+                <span>La Pino'z Pizza</span>
+                <span class="d-block fs-6 text-secondary">Wazidpur Jaunpur</span>
+              </a>
+            </h2>
+            <div class="delivery-type">
+              <div class="order-type">
+                  <a role="button" class="btn active" tabindex="0" href="#">Delivery <small> (30 Mins)</small></a>
+                  <a role="button" class="btn" tabindex="0" href="#" data-bs-toggle="modal" data-bs-target="#pickup">Pickup</a>
+                  <a role="button" class="btn" tabindex="0" href="#" data-bs-toggle="modal" data-bs-target="#in-car">In Car</a>
+              </div>
+            </div>
+            <div class="py-3">
+              <div class="d-flex align-items-center">
+                <div>
+                  <span class="bi bi-geo-alt text-success fs-3 me-3"></span>
+                </div>
+                <div>
+                  <span class="text-dark d-block text-light">No Delivery Address Selected</span>
+                </div>
+                <div class="ms-auto border-bottom border-success">
+                  <input class="btn text-success" type="button" id="openModal" value="Select">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="itemsAdded">
+            <h2 class="text-dark fs-5">Items Added</h2>
+            <div class="itemsAdded-show">
+              <div class="row align-items-center">
+                <div class="col-lg-8 col-12">
+                  <h6 class="d-flex py-3 align-items-center">
+                    <a href="#" class="text-dark d-block fs-6">
+                      <span class="bi bi-record-btn text-success fs-5 me-1"></span>
+                      <span>Veg Menu @ 149-Paneer 65 Pizza (Regular (Serves 1, 17.7 CM))</span>
+                    </a>
+                  </h6>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="row align-items-center text-end">
+                    <div class="col-6 ">
+                        <div class="cart-new-btn bg-success">
+                          <button class="btn plus-minu"><i class="bi bi-plus-lg text-light"></i></button>
+                          <input type="text" class="count bg-transparent text-light" name="qty" value="1">
+                          <button class="btn plus-minu"><i class="bi bi-dash text-light"></i></button>
+                        </div>
+                      </div>
+                    <div class="col-6">
+                        <div class="price m-0">
+                          <s class="orignalPrice text-secondary">
+                            <span class="bi bi-currency-rupee">899.00</span>
+                          </s>
+                            <span class="bi bi-currency-rupee fs-6 d-block">499.00</span>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4  col-12">
+          <div class="right-show-coupen">
+            <div class="py-3">
+              <div class="text-dark d-flex">
+                <span class="bi bi-pip-fill text-success fs-5 me-3"></span>
+                <h5 class="me-auto">LPN200</h5>
+                <div><a href="#" class="text-success border-success border-bottom  fs-6">Apply</a></div>
+              </div>
+              <p class="fs-6 text-dark mb-0">Add item worth 920 more to use this coupon</p>
+            </div>
+            <div class="text-dark">
+              <a href="#" id="moreOffers" class="btn text-dark border-dark border-bottom" role="button">
+                <span>View more offers &gt;</span>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 class="text-dark fs-5 py-1">Bill Details</h2>
+              <div class="bill-details">
+                <div class="table-responsive">
+                  <table class="table align-middle table-borderless">
+                    <tbody>
+                      <tr>
+                        <td>Subtotal</td>
+                        <td><span class="bi bi-currency-rupee fs-6 d-block">499.00</span></td>
+                      </tr>
+                      <tr>
+                        <td>GST</td>
+                        <td><span class="bi bi-currency-rupee fs-6 d-block">11.4</span></td>
+                      </tr>
+                      <tr>
+                        <td>Delivery</td>
+                        <td>Free Delivery</td>
+                      </tr>
+                      <tr>
+                        <td><span class="fw-bold">Grand Total</span></td>
+                        <td><span class="bi bi-currency-rupee fs-6 d-block fw-bold">239.40</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="subtotal">
+                  <a class="btn checkout-btn" href="#" role="button">Pay Securely</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!--Select Delivery Address -->
+  <div id="myModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-title text-dark fw-bold fs-4">Select Delivery Address</span>
+        <button id="closeModal" class="close-modal-btn text-dark" aria-label="Close">X</button>
+      </div>
+      <div class="modal-body text-center bg-light">
+        <img src="./Img/placeholder.png" alt="placeholder" width="225" height="225">
+        <p class="text-center text-success fw-bold py-3">No Saved Address</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn w-100 fs-4" type="button" id="addNewAddress">Add New Address</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- New Address -->
+  <div id="newAddress" class="newaddress" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-header border border-0">
+        <h2 class="d-flex">
+
+          <button type="button" id="backBtn" class="btn text-dark me-3 fs-3"><span
+              class="bi bi-arrow-left"></span></button>
+
+          <a href="#" class="text-dark d-block fs-5">
+            <span class="fs-5">La Pino'z Pizza</span>
+            <span class="d-block fs-6 text-secondary">Wazidpur Jaunpur</span>
+          </a>
+        </h2>
+      </div>
+      <div class="modal-body text-center bg-light">
+        <img src="./Img/location-pin.png" alt="placeholder" width="180" height="180">
+        <p class="text-center text-dark fw-bold mb-0">No Saved Address</p>
+      </div>
+      <div class="footer pb-3 text-center">
+        <button type="button" id="selectManualArea" class="btn w-50 fs-6 py-2 ">Select Delivery Area
+          Manually</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Location -->
+  <div id="SearchLocation" class="search-locations" tabindex="-1" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-header border border-0">
+        <span class="modal-title text-dark fs-4">Search Location</span>
+        <button id="closeSearchLocation" class="close-modal-btn text-dark" aria-label="Close">X</button>
+      </div>
+      <div class="search-location-box">
+        <div class="search-box py-3 mx-4">
+          <form class="position-relative">
+            <input placeholder="Search a Location" type="search"
+              class="search-input search rounded-pill form-control form-control-sm px-4 py-2" value="">
+            <span class="bi bi-search position-absolute"></span>
+          </form>
+        </div>
+        <div>
+          <h2 class="text-success fs-5 fw-medium mx-3 pt-3">Select Locality</h2>
+        </div>
+
+        <div class="list-wrap">
+          <ul>
+            <li class="border-bottom">
+              <a href="#" id="selectLocality" class="btn d-flex align-items-center p-3 selectLocalities" role="button">
+                <span class="bi bi-geo-alt fs-5 text-success"></span>
+                <span class="d-block ms-3 text-dark fs-5">Olandganj, Jaunpur</span>
+                <span class="bi bi-chevron-right fs-5 ms-auto text-success"></span>
+              </a>
+            </li>
+            <li class="border-bottom">
+              <a href="#" id="selectLocality" class="btn d-flex align-items-center p-3 selectLocalities" role="button">
+                <span class="bi bi-geo-alt fs-5 text-success"></span>
+                <span class="d-block ms-3 text-dark fs-5">Olandganj, Jaunpur</span>
+                <span class="bi bi-chevron-right fs-5 ms-auto text-success"></span>
+              </a>
+            </li>
+            <li class="border-bottom">
+              <a href="#" id="selectLocality" class="btn d-flex align-items-center p-3 selectLocalities" role="button">
+                <span class="bi bi-geo-alt fs-5 text-success"></span>
+                <span class="d-block ms-3 text-dark fs-5">Olandganj, Jaunpur</span>
+                <span class="bi bi-chevron-right fs-5 ms-auto text-success"></span>
+              </a>
+            </li>
+            <li class="border-bottom">
+              <a href="#" id="selectLocality" class="btn d-flex align-items-center p-3 selectLocalities" role="button">
+                <span class="bi bi-geo-alt fs-5 text-success"></span>
+                <span class="d-block ms-3 text-dark fs-5">Olandganj, Jaunpur</span>
+                <span class="bi bi-chevron-right fs-5 ms-auto text-success"></span>
+              </a>
+            </li>
+            <li class="border-bottom">
+              <a href="#" id="selectLocality" class="btn d-flex align-items-center p-3 selectLocalities" role="button">
+                <span class="bi bi-geo-alt fs-5 text-success"></span>
+                <span class="d-block ms-3 text-dark fs-5">Olandganj, Jaunpur</span>
+                <span class="bi bi-chevron-right fs-5 ms-auto text-success"></span>
+              </a>
+            </li>
+            <li class="border-bottom">
+              <a href="#" id="selectLocality" class="btn d-flex align-items-center p-3 selectLocalities" role="button">
+                <span class="bi bi-geo-alt fs-5 text-success"></span>
+                <span class="d-block ms-3 text-dark fs-5">Olandganj, Jaunpur</span>
+                <span class="bi bi-chevron-right fs-5 ms-auto text-success"></span>
+              </a>
+            </li>
+            <li class="border-bottom">
+              <a href="#" id="selectLocality" class="btn d-flex align-items-center p-3 selectLocalities" role="button">
+                <span class="bi bi-geo-alt fs-5 text-success"></span>
+                <span class="d-block ms-3 text-dark fs-5">Olandganj, Jaunpur</span>
+                <span class="bi bi-chevron-right fs-5 ms-auto text-success"></span>
+              </a>
+            </li>
+            <li class="border-bottom">
+              <a href="#" id="selectLocality" class="btn d-flex align-items-center p-3 selectLocalities" role="button">
+                <span class="bi bi-geo-alt fs-5 text-success"></span>
+                <span class="d-block ms-3 text-dark fs-5">Olandganj, Jaunpur</span>
+                <span class="bi bi-chevron-right fs-5 ms-auto text-success"></span>
+              </a>
+            </li>
+            <li class="border-bottom">
+              <a href="#" id="selectLocality" class="btn d-flex align-items-center p-3 selectLocalities" role="button">
+                <span class="bi bi-geo-alt fs-5 text-success"></span>
+                <span class="d-block ms-3 text-dark fs-5">Olandganj, Jaunpur</span>
+                <span class="bi bi-chevron-right fs-5 ms-auto text-success"></span>
+              </a>
+            </li>
+            <li class="border-bottom">
+              <a href="#" id="selectLocality" class="btn d-flex align-items-center p-3 selectLocalities" role="button">
+                <span class="bi bi-geo-alt fs-5 text-success"></span>
+                <span class="d-block ms-3 text-dark fs-5">Olandganj, Jaunpur</span>
+                <span class="bi bi-chevron-right fs-5 ms-auto text-success"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Detail Address -->
+  <div id="fullAddress" class="full-Address" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-header border border-0">
+        <span class="modal-title text-dark fw-medium fs-5">Add New Address</span>
+        <button id="closeDetailsBtn" class="close-modal-btn text-dark" aria-label="Close">X</button>
+      </div>
+      <div class="modal-body bg-light detailAddress">
+        <p class="text-success py-3">A detailed address will help our delivery partner reach your doorstep easily.</p>
+        <div class="d-flex align-items-center">
+          <span class="bi bi-geo-alt text-success d-block me-3 fs-4"></span>
+          <div class="text-warning d-block fs-5">
+            <span class="fs-6 fw-bold text-dark">Wazidpur</span>
+            <span class="d-block fs-6 text-black-50">Wazidpur Jaunpur</span>
+          </div>
+        </div>
+
+        <h3 class="fs-6 mt-3 mb-0">CHOOSE ADDRESS TYPE</h3>
+
+        <div class="custom-radios d-flex justify-content-between py-3">
+          <div class="d-inline-block w-100 text-center">
+            <input type="radio" id="newAddTypeH" name="newAddType" value="Home" checked="">
+            <label for="newAddTypeH" class="animatebtn">Home</label>
+          </div>
+          <div class="d-inline-block w-100 text-center">
+            <input type="radio" id="newAddTypeW" name="newAddType" value="Office">
+            <label for="newAddTypeW" class="animatebtn">Office</label>
+          </div>
+          <div class="d-inline-block w-100 text-center">
+            <input type="radio" id="newAddTypeO" name="newAddType" value="Other">
+            <label for="newAddTypeO" class="animatebtn">Other</label>
+          </div>
+        </div>
+        <div class="forms mx-3">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">House / Flat / Block no.</label>
+            <input type="text" class="form-control p-0 border-2 border-bottom" id="exampleFormControlInput1" placeholder="House / Flat / Block no.">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label">Landmark</label>
+            <input type="text" class="form-control p-0 border-2 border-bottom" id="exampleFormControlInput2" placeholder="Landmark">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput3" class="form-label">Phone Number</label>
+            <input type="text" class="form-control p-0 border-2 border-bottom" id="exampleFormControlInput3" placeholder="Mobile Number">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput4" class="form-label">Email address</label>
+            <input type="email" class="form-control p-0 border-2 border-bottom" id="exampleFormControlInput4" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput5" class="form-label">Locality</label>
+            <input type="text" class="form-control p-0 border-2 border-bottom" id="exampleFormControlInput5" placeholder="Locality">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput6" class="form-label">City</label>
+            <input type="text" class="form-control p-0 border-2 border-bottom" id="exampleFormControlInput6" placeholder="City">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-dark saveAddress w-100 fs-5">Save Address</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Apply Coupon -->
+  <div id="coupon" class="applyCoupon" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-headers border border-0 shadow-lg p-3 rounded">
+        <div class="d-flex align-items-center">
+          <button type="button" id="circleBackBtn" class="btn text-dark fs-3"><span class="bi bi-arrow-left-circle"></span></button>
+          <div class="text-dark">
+            <label class="fs-5" aria-label="apply coupon">Apply Coupon</label>
+            <label class="d-block fs-6 text-secondary" aria-label="cart value">Your Cart Value: ₹ 149.00</label>
+          </div>
+        </div>
+        <div class="input-group p-3">
+          <input class="form-control" type="text" id="manualPromoCodes" placeholder="Enter Promo Code" maxlength="50"
+            pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
+          <span><button class="btn text-success" type="submit">Apply</button></span>
+        </div>
+      </div>
+      <div class="coupon-body">
+        <div class="modal-body d-flex align-items-center bg-light shadow m-3 bg-body rounded">
+          <div class="all-coupon">
+            <h2 class="fs-5">LPN50</h2>
+            <h5 class="fs-6">Get Flat Discount of Rs.50 on Minimum Billing of Rs.299</h5>
+            <p>Get Flat Discount of Rs.50 on Minimum Bi...Read</p>
+          </div>
+          <div>
+            <button class="btn text-success" type="submit">Apply</button>
+          </div>
+        </div>
+        <div class="modal-body d-flex align-items-center bg-light shadow m-3 bg-body rounded">
+          <div class="all-coupon">
+            <h2 class="fs-5">LPN50</h2>
+            <h5 class="fs-6">Get Flat Discount of Rs.50 on Minimum Billing of Rs.299</h5>
+            <p>Get Flat Discount of Rs.50 on Minimum Bi...Read</p>
+          </div>
+          <div>
+            <button class="btn text-success" type="submit">Apply</button>
+          </div>
+        </div>
+        <div class="modal-body d-flex align-items-center bg-light shadow m-3 bg-body rounded">
+          <div class="all-coupon">
+            <h2 class="fs-5">LPN50</h2>
+            <h5 class="fs-6">Get Flat Discount of Rs.50 on Minimum Billing of Rs.299</h5>
+            <p>Get Flat Discount of Rs.50 on Minimum Bi...Read</p>
+          </div>
+          <div>
+            <button class="btn text-success" type="submit">Apply</button>
+          </div>
+        </div>
+        <div class="modal-body d-flex align-items-center bg-light shadow m-3 bg-body rounded">
+          <div class="all-coupon">
+            <h2 class="fs-5">LPN50</h2>
+            <h5 class="fs-6">Get Flat Discount of Rs.50 on Minimum Billing of Rs.299</h5>
+            <p>Get Flat Discount of Rs.50 on Minimum Bi...Read</p>
+          </div>
+          <div>
+            <button class="btn text-success" type="submit">Apply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal Pickup-->
+  <div class="modal fade" id="pickup" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content rounded-5 px-4">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel1">Pickup Order</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;max-width: 100px;" xml:space="preserve">
+						<style type="text/css">
+							.st0{fill:#939393;}
+						</style>
+						<path class="st0" d="M472.4,0h-18.6c-10.8,0.8-19.5,9-21.1,19.6H276.7c-16.3,0-32.3,4.1-46.6,11.8l-63.7,34.3H65.6  c-17.4,0-31.4,14.1-31.4,31.4v9.4c0,12.8,7.8,24.3,19.6,29.1c-7.8,31.6-38.4,113.1-36.3,145.4l0,202.8c0,15.5,12.5,28,28,28l353,0.1  c5.1-0.1,9.3-4.3,9.4-9.4V267.7c0-0.9-0.1-1.8-0.4-2.6l-36.8-124.4c20.3-3.6,36.2-19.4,40.1-39.6h20.9c-0.6,13,9.1,24.3,22,25.7  h18.6c12.5,0,22.2-12.3,22.2-28V28C494.6,12.3,484.8,0,472.4,0L472.4,0z M52.8,106.6v-9.4c0-7.1,5.7-12.8,12.8-12.8h223.6l-34.9,35  H65.6C58.5,119.4,52.8,113.7,52.8,106.6z M36.2,483.9c1.9-30.4-5.3-217.6,5.8-242.7l30.6-103.2h169c-6.6,20.3,4.5,42.1,24.8,48.7  c12,3.9,25.1,1.7,35.2-5.8l32.4-24.7l-28.1,104.5c-0.2,4.4-0.5,228.5-0.3,232.5l-259.9,0C40.4,493.3,36.2,489.1,36.2,483.9  L36.2,483.9z M356.6,473.9l19.4,19.4h-38.7L356.6,473.9z M389.2,269v211.1L366,456.9V279.1c-0.1-5.2-4.4-9.2-9.5-9.1  c-5,0.1-9,4.1-9.1,9.1v177.7L324.1,480V264.4l30.4-112.9L389.2,269z M431.6,82.3h-29.2c-5.2,0-9.3,4.2-9.3,9.3  c0,17.2-13.9,31.1-31.1,31.1c-0.8,0.1-12.8-0.2-13.2,0.2c-0.5-2.8-57.1,42.7-58.7,43.2c-8.9,6.6-21.4,4.7-28-4.1  c-5.8-7.9-5.1-18.8,1.7-25.9l54.4-54.5c3.6-3.7,3.5-9.7-0.2-13.3c-1.7-1.7-4-2.6-6.4-2.6H205.8c20.3-10.3,47.1-29.1,71-27.4l154.8,0  L431.6,82.3z M475.9,98.7c0.4,3.5-0.9,7-3.6,9.3l-18.5,0c-2.7-2.3-4-5.8-3.6-9.3V29.1c-0.5-5,2.6-10.7,3.6-10.5l18.5,0  c2.7,2.3,4,5.8,3.6,9.3L475.9,98.7z"></path>
+						<g>
+							<path class="st0" d="M107.8,223.5c-27.9,0-50.6,26-50.6,57.9c-0.5,21.4,10.6,41.3,28.9,52.2v85.2c0,12,9.7,21.7,21.7,21.7   c12,0,21.7-9.7,21.7-21.7v-85.2c18.4-10.9,29.4-30.9,28.9-52.2C158.4,249.5,135.7,223.5,107.8,223.5z M119.5,322.4   c-2.7,1.1-4.5,3.8-4.5,6.7v89.7c0,4-3.2,7.2-7.2,7.2c-4,0-7.2-3.2-7.2-7.2V329c0-2.9-1.8-5.6-4.5-6.7c-15.6-7.6-25.2-23.7-24.5-41   c0-23.9,16.2-43.4,36.2-43.4c19.9,0,36.2,19.5,36.2,43.4C144.6,298.7,135,314.8,119.5,322.4z"></path>
+							<path class="st0" d="M266.9,223.5c-4,0-7.2,3.2-7.2,7.2v72.3c0,12-9.7,21.7-21.7,21.7c-4,0-7.2,3.2-7.2,7.2v86.8   c0,4-3.2,7.2-7.2,7.2c-4,0-7.2-3.2-7.2-7.2V332c0-4-3.2-7.2-7.2-7.2c-12,0-21.7-9.7-21.7-21.7v-72.3c0-4-3.2-7.2-7.2-7.2   c-4,0-7.2,3.2-7.2,7.2v72.3c0,17.2,12.1,32,28.9,35.4v80.3c0,12,9.7,21.7,21.7,21.7c12,0,21.7-9.7,21.7-21.7v-80.3   c16.8-3.5,28.9-18.3,28.9-35.4v-72.3C274.1,226.7,270.8,223.5,266.9,223.5z"></path>
+							<path class="st0" d="M209,310.3c4,0,7.2-3.2,7.2-7.2v-72.3c0-4-3.2-7.2-7.2-7.2s-7.2,3.2-7.2,7.2v72.3   C201.8,307,205,310.3,209,310.3z"></path>
+							<path class="st0" d="M237.9,310.3c4,0,7.2-3.2,7.2-7.2v-72.3c0-4-3.2-7.2-7.2-7.2c-4,0-7.2,3.2-7.2,7.2v72.3   C230.7,307,233.9,310.3,237.9,310.3z"></path>
+						</g>
+					</svg>
+          <p class="mt-2 mb-3">You have to collect the order from <span id="pickuplocality">Pushraj Chauraha</span> <span id="pickcity">Ayodhya</span></p>
+          <div class="modal-btn">
+            <div class="row">
+              <div class="col-6">
+                <button type="button" class="btn pickup-btn" data-bs-dismiss="modal">Cancel</button>
+              </div>
+              <div class="col-6">
+                <button type="button" class="btn pickup-btn pickup-btn-bg">Confirm Pickup</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Dine-in-->
+  <div class="modal fade" id="in-car" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content rounded-5 px-4">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel2">In-Car Order</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;max-width: 100px;" xml:space="preserve">
+						<style type="text/css">
+							.st0{fill:#939393;}
+						</style>
+						<g>
+							<path class="st0" d="M348.6,324.3H163.4c-7.7,0-14.6,4.8-17.3,12.1s-0.4,15.4,5.5,20.3l27.7,23c3.3,2.8,7.5,4.3,11.8,4.3h129.8   c4.3,0,8.4-1.5,11.7-4.3l27.7-23c5.9-4.9,8.1-13.1,5.5-20.3S356.3,324.3,348.6,324.3z M349.4,343.6L349.4,343.6l-27.7,23   c-0.2,0.2-0.5,0.3-0.9,0.3H191.1c-0.3,0-0.6-0.1-0.9-0.3l-27.7-23c-0.5-0.3-0.6-0.9-0.4-1.4c0.1-0.5,0.6-0.9,1.2-0.9h185.2   c0.6,0,1.1,0.3,1.2,0.9C350,342.7,349.8,343.3,349.4,343.6L349.4,343.6z"></path>
+							<path class="st0" d="M460.8,324.3h-39.2c-4.3,0-8.4,1.5-11.7,4.3l-27.8,23c-6,4.9-8.2,13.1-5.6,20.3c2.6,7.3,9.6,12.1,17.3,12.1h67   c9.4,0,17.1-7.6,17.1-17.1v-25.6C477.9,331.9,470.2,324.3,460.8,324.3z M460.8,366.9h-67c-0.6,0.1-1.1-0.3-1.2-0.9   c-0.2-0.5-0.1-1.1,0.4-1.4l27.8-23.1c0.2-0.2,0.5-0.3,0.9-0.3l39.2,0V366.9z"></path>
+							<path class="st0" d="M129.9,351.6l-27.7-23c-3.3-2.7-7.4-4.2-11.7-4.3H51.2c-9.4,0-17.1,7.6-17.1,17.1v25.6   c0,9.4,7.6,17.1,17.1,17.1h67c7.7,0,14.6-4.8,17.3-12.1C138.1,364.6,135.8,356.5,129.9,351.6z M119.4,366.1L119.4,366.1   c-0.1,0.5-0.6,0.9-1.2,0.9h-67v-25.6h39.3c0.3,0,0.6,0.1,0.9,0.3l27.8,23.1C119.5,365,119.6,365.6,119.4,366.1z"></path>
+							<path class="st0" d="M110.9,409.6H51.2c-4.7,0-8.5,3.8-8.5,8.5s3.8,8.5,8.5,8.5h59.7c4.7,0,8.5-3.8,8.5-8.5   S115.6,409.6,110.9,409.6z"></path>
+							<path class="st0" d="M460.8,409.6h-59.7c-4.7,0-8.5,3.8-8.5,8.5s3.8,8.5,8.5,8.5h59.7c4.7,0,8.5-3.8,8.5-8.5   S465.5,409.6,460.8,409.6z"></path>
+							<path class="st0" d="M332.8,409.6H179.2c-4.7,0-8.5,3.8-8.5,8.5s3.8,8.5,8.5,8.5h153.6c4.7,0,8.5-3.8,8.5-8.5   S337.5,409.6,332.8,409.6z"></path>
+							<path class="st0" d="M472.9,273.1h13.5c6.8,0,13.3-2.7,18.1-7.5c4.8-4.8,7.5-11.3,7.5-18.1c0-14.1-11.5-25.6-25.6-25.6h-17.1   c-7.4,0-14.5,3.3-19.3,9l-16-48c-4-11.9-12.9-21.4-24.6-26.1c0-1.1,0.2-2.1,0.2-3.2C409.6,68.8,340.8,0,256,0   c-84.8,0-153.6,68.8-153.6,153.6c0,1.1,0.1,2.1,0.2,3.2C90.9,161.4,82,170.9,78,182.8l-16,48c-4.8-5.7-11.9-8.9-19.3-9H25.6   C11.5,221.9,0,233.3,0,247.5s11.5,25.6,25.6,25.6h13.5L7.6,304.6C2.7,309.4,0,316,0,322.8v112.4c0,10.8,6.9,20.4,17.1,24v27.2   c0,14.1,11.5,25.6,25.6,25.6h59.7c14.1,0,25.6-11.5,25.6-25.6v-25.6h256v25.6c0,14.1,11.5,25.6,25.6,25.6h59.7   c14.1,0,25.6-11.5,25.6-25.6v-27.2c10.2-3.6,17-13.2,17.1-24V322.8c0-6.8-2.7-13.4-7.5-18.2L472.9,273.1z M460.8,247.5   c0-4.7,3.8-8.5,8.5-8.5h17.1c4.7,0,8.5,3.8,8.5,8.5s-3.8,8.5-8.5,8.5h-25.6V247.5z M417.8,188.2l22.6,67.8h-70.3   c20.3-22.6,33.4-50.6,37.7-80.7C412.5,178.4,416,182.9,417.8,188.2z M256,17.1c75.4,0,136.5,61.1,136.5,136.5   S331.4,290.1,256,290.1c-75.4,0-136.5-61.1-136.5-136.5C119.6,78.2,180.6,17.2,256,17.1z M94.2,188.2c1.8-5.3,5.3-9.8,9.9-12.9   c4.3,30,17.4,58.1,37.7,80.7H71.6L94.2,188.2z M25.6,256c-4.7,0-8.5-3.8-8.5-8.5s3.8-8.5,8.5-8.5h17.1c4.7,0,8.5,3.8,8.5,8.5v8.5   H25.6z M110.9,486.4c0,4.7-3.8,8.5-8.5,8.5H42.7c-4.7,0-8.5-3.8-8.5-8.5v-25.6h76.8V486.4z M477.9,486.4c0,4.7-3.8,8.5-8.5,8.5   h-59.7c-4.7,0-8.5-3.8-8.5-8.5v-25.6h76.8L477.9,486.4z M494.9,435.2c0,4.7-3.8,8.5-8.5,8.5H25.6c-4.7,0-8.5-3.8-8.5-8.5V322.8   c0-2.3,0.9-4.5,2.6-6.1l43.6-43.7h96.4c56.2,45.5,136.5,45.5,192.7,0h96.4l43.6,43.7c1.6,1.6,2.6,3.8,2.6,6.1V435.2z"></path>
+							<g>
+								<path class="st0" d="M194,59.1c-25,0-45.3,23.2-45.3,51.8c-0.5,19.1,9.4,37,25.9,46.7v76.2c0,10.7,8.7,19.4,19.4,19.4    c10.7,0,19.4-8.7,19.4-19.4v-76.2c16.4-9.8,26.3-27.6,25.9-46.7C239.3,82.4,219,59.1,194,59.1z M204.5,147.6c-2.4,1-4,3.4-4,6    v80.3c0,3.6-2.9,6.5-6.5,6.5c-3.6,0-6.5-2.9-6.5-6.5v-80.3c0-2.6-1.6-5-4-6c-13.9-6.8-22.5-21.2-21.9-36.7    c0-21.4,14.5-38.8,32.3-38.8c17.8,0,32.3,17.4,32.3,38.8C227,126.4,218.5,140.8,204.5,147.6z"></path>
+								<path class="st0" d="M336.4,59.1c-3.6,0-6.5,2.9-6.5,6.5v64.7c0,10.7-8.7,19.4-19.4,19.4c-3.6,0-6.5,2.9-6.5,6.5v77.6    c0,3.6-2.9,6.5-6.5,6.5s-6.5-2.9-6.5-6.5v-77.6c0-3.6-2.9-6.5-6.5-6.5c-10.7,0-19.4-8.7-19.4-19.4V65.6c0-3.6-2.9-6.5-6.5-6.5    c-3.6,0-6.5,2.9-6.5,6.5v64.7c0,15.4,10.8,28.6,25.9,31.7v71.8c0,10.7,8.7,19.4,19.4,19.4c10.7,0,19.4-8.7,19.4-19.4V162    c15.1-3.1,25.9-16.3,25.9-31.7V65.6C342.9,62,340,59.1,336.4,59.1z"></path>
+								<path class="st0" d="M284.6,136.8c3.6,0,6.5-2.9,6.5-6.5V65.6c0-3.6-2.9-6.5-6.5-6.5s-6.5,2.9-6.5,6.5v64.7    C278.2,133.9,281.1,136.8,284.6,136.8z"></path>
+								<path class="st0" d="M310.5,136.8c3.6,0,6.5-2.9,6.5-6.5V65.6c0-3.6-2.9-6.5-6.5-6.5c-3.6,0-6.5,2.9-6.5,6.5v64.7    C304,133.9,306.9,136.8,310.5,136.8z"></path>
+							</g>
+						</g>
+					</svg>
+          <p class="mt-2 mb-3">Your order will be delivered to your car</p>
+          <div class="modal-btn">
+            <div class="row">
+              <div class="col-6">
+                <button type="button" class="btn pickup-btn" data-bs-dismiss="modal">Cancel</button>
+              </div>
+              <div class="col-6">
+                <button type="button" class="btn pickup-btn pickup-btn-bg">Confirm In-Car</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js" integrity="sha512-An4a3FEMyR5BbO9CRQQqgsBscxjM7uNNmccUSESNVtWn53EWx5B9oO7RVnPvPG6EcYcYPp0Gv3i/QQ4KUzB5WA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./JS/main.js"></script>
+  
+
+</body>
+
+</html>
