@@ -247,6 +247,7 @@ h2{color: var(--light-black);}
 .promo .promo-code a{padding: 9px 5px !important; background: var(--dots-bg); color: var(--light-black);}
 
 /* Order-Online */
+.order{margin-top: 80px;}
 .order .download-apps img{max-width: 150px ; height: auto;}
 .order .form-subscribe{width: 100%; max-width: 400px; margin: 20px auto;}
 .order .input-group input{background: var(--white); box-shadow: 0 3px 6px #00000029; border-radius: 50px !important; border: none; padding: 14px 14px 14px 50px; z-index: 2;}
@@ -265,6 +266,7 @@ h2{color: var(--light-black);}
 
 
 /* Store Locator */
+.stores{margin-top: 80px;}
 .stores h2{color: var(--green);}
 .stores .btn{border: 1px solid var(--green) !important; color: var(--green); width: 100%; border-radius: 20px !important; padding: 5px !important;}
 .stores a{color: var(--green) !important;}
@@ -277,6 +279,7 @@ h2{color: var(--light-black);}
 .enquiry input,textarea{border: 1px solid var(--dots-bg) !important;}
 
 /* Our Story */
+.story{margin-top: 110px;}
 .story .our-story p{font-size: 16px; line-height: 25px; color: #848484;}
 .journey .timeline{position: relative; padding: 1px 0 1px 5px; width: 100%; max-width: 500px;}
 .journey .timeline::before{
@@ -310,6 +313,7 @@ h2{color: var(--light-black);}
 .explore a:hover h3{color: var(--green) !important;}
 
 /* Contact Us */
+.contact{margin-top: 80px;}
 .contact .contact-text h2{color: var(--green);}
 .contact .company-info{background: var(--white); border-radius: 10px; box-shadow: 0 10px 22px -10px rgba(0,0,0,0.3); height: 100%;}
 .contact .company-info p{color: var(--text-color);}
@@ -511,6 +515,7 @@ h2{color: var(--light-black);}
 
     .wrap-12 .quotes-outer::before{ background: url(../Img/quotes-bg-mob.png) no-repeat center/cover !important; opacity: 0.2 !important;}
     .wrap-18 .common-heading{font-size: 18px !important;}
+    .contact{margin-top: 110px;}
 }
 
 @media screen and (max-width:1199px){
@@ -521,6 +526,7 @@ h2{color: var(--light-black);}
     .downloads-icon img {max-width: 140px;}
     .app-text h2{font-size: 26px !important;  margin: 15px 0 15px !important;}
     #orders{order: -1; margin-bottom: 30px;}
+    
   }
 
   /* fixed-cart-data on max-width:992px*/
