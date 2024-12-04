@@ -516,7 +516,7 @@ h2{color: var(--light-black);}
     .wrap-12 .quotes-outer::before{ background: url(../Img/quotes-bg-mob.png) no-repeat center/cover !important; opacity: 0.2 !important;}
     .wrap-18 .common-heading{font-size: 18px !important;}
     .contact{margin-top: 110px;}
-    .banner {margin-top: 110px !important;}
+    .banner {margin-top: 120px !important;}
 }
 
 @media screen and (max-width:1199px){
