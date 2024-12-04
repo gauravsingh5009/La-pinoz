@@ -222,25 +222,30 @@ h2{color: var(--light-black);}
 .wrap-16 .all-outlets-btn{ width: max-content; padding: 5px 10px; margin: 0 auto; background-color: #DDF5E4; border: 1px solid var(--green); border-radius: 20px; font-weight: 600; color: var(--green);}
 
 /* Shipping Policy*/
+.shipping{margin-top: 110px;}
 .shipping-main{max-width: 800px; margin: 0 auto;}
 
 /* Refund Policy */
-.refund-main{max-width: 80%; margin: 0 auto;}
+.refund{margin-top: 110px !important;}
+.refund-main{max-width: 80%; margin: 0 auto; padding-bottom: 140px;}
 .refund-main h2{border-left: 5px solid #48B51A; background: #cdcccc69; color: #777;}
 .refund-main p{color: #5c5b5b; font-weight: 600; font-size: 16px; margin: 16px; padding: 9px;}
 .refund-main p.CSG{color: #48B51A;}
 .refund-main .support-box{background: #e3f7e3 !important; color: #5c5b5b; overflow-wrap: anywhere;}
 
 /* Terms And Condition */
+.terms{margin-top: 110px;}
 .terms h2{color: var(--green);}
 
 /* Privacy Policy */
+.privacy{margin-top: 110px;}
 .privacy h2{color: var(--green);}
 .privacy h3{font-size: 12px; font-weight: 700;}
 .privacy p{font-size: 12px;}
 .privacy .info p{margin: 0; font-size: 16px; color: #757070;}
 
 /* Promo Code */
+.promo{margin-top: 110px;}
 .promo .coupen{width: 100%; max-width: 500px; box-shadow: 0 3px 6px #00000029; margin: 0 auto; padding: 20px 15px; border-radius: 15px;}
 .promo .coupen-discount{border: 1px solid var(--light-black); display: inline-block; border-radius: 20px; padding: 5px 10px; font-size: 16px;}
 .promo .promo-code p{border: 1px dashed #bdbdbd; padding: 8px 35px;}
